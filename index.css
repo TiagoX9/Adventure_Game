@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.wallpaper {
+    background-image: url("img/index.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-image: linear-gradient(0deg, rgba(33, 68, 162, 1) 0%, rgba(33, 68, 162, 1) 50%, rgba(86, 120, 183, 1) 51%);
+    border: solid rgb(129, 251, 255);
+    margin: -20vh 42vw;
+    color: rgb(129, 251, 255);
+    font-size: 20px;
+    text-shadow: 0 0 0.1px #fff, 0 0 0.1px #fff, 0 0 0.1px rgb(129, 251, 255), 0 0 0.1px rgb(129, 251, 255), 0 0 0.1px rgb(129, 251, 255), 0 0 0.1px rgb(129, 251, 255), 0 0 0.1px rgb(129, 251, 255);
+    box-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px rgba(33, 68, 162, 1), 0 0 4px rgba(33, 68, 162, 1), 0 0 5px rgba(33, 68, 162, 1), 0 0 5px rgba(33, 68, 162, 1), 0 0 5px rgba(33, 68, 162, 1);
+}
+
+button:hover {
+    background-image: linear-gradient(0deg, rgba(33, 68, 162, 1) 0%, rgba(33, 68, 162, 1) 50%, rgba(86, 120, 183, 1) 51%);
+    border: solid rgb(129, 251, 255);
+    box-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 8px rgba(33, 68, 162, 1), 0 0 8px rgba(33, 68, 162, 1), 0 0 8px rgba(33, 68, 162, 1), 0 0 8px rgba(33, 68, 162, 1), 0 0 8px rgba(33, 68, 162, 1);
+    color: rgb(129, 251, 255);
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 4px rgb(129, 251, 255), 0 0 4px rgb(129, 251, 255), 0 0 4px rgb(129, 251, 255), 0 0 4px rgb(129, 251, 255), 0 0 4px rgb(129, 251, 255);
+}
+
+#fate {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    margin: 40vh 34vw;
+    width: 400px;
+    height: auto;
+    color: white;
+    font-size: 22px;
+    
+}
